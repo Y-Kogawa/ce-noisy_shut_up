@@ -1,0 +1,5 @@
+.top-timeline-tweetbox .timeline-tweet-box .tweet-form.condensed .tweet-box > div {
+  visibility: hidden; }
+
+#facebook #mentionsInput ::-webkit-input-placeholder {
+  opacity: 0; }

@@ -1,0 +1,10 @@
+@charset "UTF-8";
+// Twitter
+.top-timeline-tweetbox .timeline-tweet-box .tweet-form.condensed .tweet-box > div {
+	visibility: hidden;
+}
+
+// Facebook
+#facebook #mentionsInput ::-webkit-input-placeholder {
+	opacity: 0;
+}

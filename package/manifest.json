@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+	"name": "Noisy Shut Up",
+	"version": "0.1",
+	"description": "TwitterとFacebookのいまどうしてる？今どんな気持ち？を消してやる！",
+	"content_scripts": [{
+		"matches": [
+			"http://twitter.com/*",
+			"https://twitter.com/*",
+			"http://www.facebook.com/*",
+			"https://www.facebook.com/*"
+		],
+		"css": [
+			"assets/css/styles.css"
+		]
+	}]
+}
