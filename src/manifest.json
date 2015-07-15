@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "Noisy Shut Up",
 	"version": "0.1",
-	"description": "TwitterとFacebookのいまどうしてる？今どんな気持ち？を消してやる！",
+	"description": "TwitterとFacebookのいまどうしてる？今どんな気持ち？を消してやる！（ジョークアプリ？です）",
 	"content_scripts": [{
 		"matches": [
 			"http://twitter.com/*",
